@@ -1,6 +1,5 @@
-kdewebdev (4:3.90.1-1) unstable; urgency=low
+kdewebdev (4:3.97.0-1) experimental; urgency=low
 
-  * Initial release.
+  * Initial release. 
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 24 May 2007 03:02:20 +0200
-
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 12 Dec 2007 05:59:34 +0100

@@ -2,9 +2,9 @@ Source: kdewebdev
 Section: web
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.90.1),
- libxml2-dev, libxslt-dev,
-Standards-Version: 3.7.2
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.97.0),
+ libtidy-dev
+Standards-Version: 3.7.3
 
 Package: kdewebdev
 Architecture: any
