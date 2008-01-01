@@ -1,6 +1,6 @@
 kdewebdev (4:3.98.0~svn753247-1) experimental; urgency=low
 
-  * Svn ... 
+  * Svn snapshot of revision 753247.
   * Split out files in different packages.
   * todo: update Source-Versions, review descriptions, do copyright
 
