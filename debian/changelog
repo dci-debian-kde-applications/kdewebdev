@@ -9,6 +9,7 @@ kdewebdev (4:4.0.84-1) UNRELEASED; urgency=low
   * Needs kdepimlibs, boost, libxslt and zlib during build
   * Patch away the ruby condition for installing scripts. No need to have ruby
     in build environment for installing ruby scripts unmodified.
+  * Copyright file
 
   +++ Changes by Matthew Rosewarne:
 
