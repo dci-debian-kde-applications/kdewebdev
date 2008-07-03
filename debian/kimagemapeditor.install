@@ -23,3 +23,4 @@ usr/share/kde4/apps/kimagemapeditor/kimagemapeditorui.rc
 usr/share/kde4/apps/kimagemapeditor/polygoncursor.png
 usr/share/kde4/apps/kimagemapeditor/removepointcursor.png
 usr/share/kde4/services/kimagemapeditorpart.desktop
+usr/share/doc/kde4/HTML/en/kimagemapeditor/common

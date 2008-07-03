@@ -106,5 +106,14 @@ usr/share/kde4/apps/xsldbg/testdoc.xsl
 usr/share/kde4/apps/xsldbg/test_import.xsl
 usr/share/kde4/apps/xsldbg/test_include_bot.xsl
 usr/share/kde4/apps/xsldbg/test_include_top.xsl
-usr/share/kde4/apps/xsldbg/xsldbghelp.xsl
 usr/share/kde4/services/kxsldbg_part.desktop
+usr/share/doc/kde4/HTML/en/kxsldbg/common
+usr/share/doc/kde4/HTML/en/xsldbg/common
+usr/share/doc/kde4/HTML/en/xsldbg/man-xsldbg.1.docbook
+usr/share/doc/kde4/HTML/en/xsldbg/xsldbghelp.xml
+usr/share/doc/kde4/HTML/en/xsldbg/xsldbghelp.xsl
+usr/share/icons/hicolor/16x16/apps/kxsldbg.png
+usr/share/icons/hicolor/32x32/apps/kxsldbg.png
+usr/share/icons/locolor/16x16/apps/kxsldbg.png
+usr/share/icons/locolor/32x32/apps/kxsldbg.png
+usr/share/man/man1/xsldbg.1
