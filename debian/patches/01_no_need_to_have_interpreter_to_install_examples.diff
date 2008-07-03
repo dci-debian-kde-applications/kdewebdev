@@ -1,0 +1,23 @@
+Provide the example scripts no matter of ruby is available in the 
+build environment or not
+
+
+Index: b/klinkstatus/src/plugins/scripting/scripts/CMakeLists.txt
+===================================================================
+--- a/klinkstatus/src/plugins/scripting/scripts/CMakeLists.txt
++++ b/klinkstatus/src/plugins/scripting/scripts/CMakeLists.txt
+@@ -4,7 +4,6 @@
+ 
+ macro_optional_find_package(RUBY)
+ 
+-if(RUBY_FOUND)
+     
+     include_directories(${RUBY_INCLUDE_PATH})
+ 
+@@ -16,6 +15,5 @@
+         examples/statistics/statistics.rb 
+         DESTINATION ${DATA_INSTALL_DIR}/klinkstatus/scripts)
+         
+-endif(RUBY_FOUND)
+ 
+ 

@@ -6,6 +6,7 @@ kdewebdev (4:4.0.84-1) UNRELEASED; urgency=low
   * Kommander has arrived
   * Source-Version => source:Version
   * dev-stuff to not-installed
+  * Needs kdepimlibs, boost, libxslt and zlib during build
 
   +++ Changes by Matthew Rosewarne:
 
