@@ -10,8 +10,8 @@ Homepage: http://kdewebdev.org/
 Package: kdewebdev
 Architecture: all
 Section: kde
-Depends: kfilereplace (>= ${Source-Version}), kimagemapeditor (>= ${Source-Version}), klinkstatus (>= ${Source-Version}), kxsldbg (>= ${Source-Version})
-Suggests: kommander-dev (>= ${Source-Version}), kdewebdev-doc-html (>= ${Source-Version})
+Depends: kfilereplace (>= ${source:Version}), kimagemapeditor (>= ${source:Version}), klinkstatus (>= ${source:Version}), kxsldbg (>= ${source:Version})
+Suggests: kommander-dev (>= ${source:Version}), kdewebdev-doc-html (>= ${source:Version})
 Description: web development apps from the official KDE release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -82,6 +82,33 @@ Description: graphical XSLT debugger for KDE
  .
  This package is part of KDE, as a component of the KDE web development module.
  See the 'kde' and 'kdewebdev' packages for more information.
+
+Package: kommander
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: visual dialog builder and executor tool
+ Kommander is a visual dialog building tool whose primary objective is
+ to create as much functionality as possible without using any scripting
+ language.
+ .
+ More specifically, Kommander is a set of tools that allow you to create
+ dynamic GUI dialogs that generate, based on their state, a piece of
+ text. The piece of text can be a command line to a program, any piece
+ of code, business documents that contain a lot of repetitious or
+ templated text and so on.
+ .
+ The resulting generated text can then be executed as a command line
+ program (hence the name "Kommander"), written to a file, passed to a
+ script for extended processing, and literally anything else you can
+ think of. And you aren't required to write a single line of code!
+ .
+ As well as building dialogs, Kommander may be expanded to create full
+ mainwindow applications.
+ .
+ This package is part of KDE, as a component of the KDE web development module.
+ See the 'kde' and 'kdewebdev' packages for more information.
+
 
 Package: kdewebdev-dbg
 Section: libdevel
