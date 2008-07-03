@@ -1,0 +1,9 @@
+#we aren't yet shipping dev stuff. Kommander package needs to be split with with a libkommander package if we ever are going to ship them
+./usr/include/kommandercore_export.h
+./usr/include/kommanderplugin.h
+./usr/include/kommanderwidget.h
+./usr/include/specials.h
+./usr/lib/libkommandercore.so
+./usr/lib/libkommanderwidgets.so
+./usr/lib/libklinkstatuscommon.so
+
