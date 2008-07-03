@@ -1,0 +1,35 @@
+Index: b/kommander/lib/CMakeLists.txt
+===================================================================
+--- a/kommander/lib/CMakeLists.txt
++++ b/kommander/lib/CMakeLists.txt
+@@ -5,6 +5,8 @@
+ ${KDE4_INCLUDE_DIR} 
+ ${QT_INCLUDE_DIR}  )
+ 
++find_package(ZLIB REQUIRED)
++
+ 
+ ########### next target ###############
+ 
+@@ -28,7 +30,7 @@
+ )
+ 
+ KDE4_ADD_LIBRARY(kommandercore SHARED ${kommandercore_LIB_SRCS}) 
+-TARGET_LINK_LIBRARIES(kommandercore  ${KDE4_KIO_LIBS} ${KDE4_KDE3SUPPORT_LIBS} )
++TARGET_LINK_LIBRARIES(kommandercore  ${KDE4_KIO_LIBS} ${KDE4_KDE3SUPPORT_LIBS} ${ZLIB_LIBRARY} )
+ 
+ SET_TARGET_PROPERTIES(kommandercore PROPERTIES VERSION 4.2.0 SOVERSION 4 )
+ INSTALL(TARGETS kommandercore ${INSTALL_TARGETS_DEFAULT_ARGS} )
+Index: b/kxsldbg/kxsldbgpart/CMakeLists.txt
+===================================================================
+--- a/kxsldbg/kxsldbgpart/CMakeLists.txt
++++ b/kxsldbg/kxsldbgpart/CMakeLists.txt
+@@ -29,7 +29,7 @@
+ kde4_add_plugin(kxsldbgpart WITH_PREFIX ${kxsldbgpart_PART_SRCS})
+ 
+ 
+-target_link_libraries(kxsldbgpart ${KDE4_KTEXTEDITOR_LIBS} exslt ${LIBXML2_LIBRARIES} ${LIBXSLT_LIBRARIES} ${QT_QT3SUPPORT_LIBRARY})
++target_link_libraries(kxsldbgpart ${KDE4_KTEXTEDITOR_LIBS} exslt ${LIBXML2_LIBRARIES} ${LIBXSLT_LIBRARIES} ${QT_QT3SUPPORT_LIBRARY} ${CMAKE_THREAD_LIBS_INIT})
+ 
+ install(TARGETS kxsldbgpart  DESTINATION ${PLUGIN_INSTALL_DIR})
+ 
