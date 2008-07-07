@@ -1,5 +1,15 @@
 kdewebdev (4:4.0.84-1) experimental; urgency=low
 
+  * Some description tweaking in the control and copyright files.
+  * Add versioned build depends for kdelibs5-dev and kdepimlibs5-dev.
+  * Add kommander to the kdewebdev metapackage.
+  * Remove Suggests on kommander-dev, kdewebdev-doc-html and quanta that does 
+    not exist in KDE 4.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 07 Jul 2008 03:01:30 +0200
+
+kdewebdev (4:4.0.84-1) experimental; urgency=low
+
   +++ Changes by Sune Vuorela:
 
   * New upstream snapshot
