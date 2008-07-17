@@ -2,7 +2,7 @@ Source: kdewebdev
 Section: web
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Xavier Vello <xavier.vello@gmail.com>
 Build-Depends: cdbs, debhelper (>= 5), cmake (>= 2.4.5), quilt, 
  kdelibs5-dev (>= 4:4.0.84), kdepimlibs5-dev (>= 4:4.0.84),
  libtidy-dev, zlib1g-dev, libboost-dev, libxslt-dev

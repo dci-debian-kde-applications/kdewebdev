@@ -1,3 +1,10 @@
+kdewebdev (4:4.0.98-1) experimental; urgency=low
+
+  * New upstream release
+  * Fixed linking issues due to new kdelibs5 build system (closes: #491174)
+
+ -- Xavier Vello <xavier.vello@gmail.com>  Thu, 17 Jul 2008 15:13:27 +0200
+
 kdewebdev (4:4.0.84-1) experimental; urgency=low
 
   * Some description tweaking in the control and copyright files.

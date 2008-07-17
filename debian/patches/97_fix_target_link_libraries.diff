@@ -1,5 +1,3 @@
-Index: b/kommander/lib/CMakeLists.txt
-===================================================================
 --- a/kommander/lib/CMakeLists.txt
 +++ b/kommander/lib/CMakeLists.txt
 @@ -5,6 +5,8 @@
@@ -20,8 +18,6 @@ Index: b/kommander/lib/CMakeLists.txt
  
  SET_TARGET_PROPERTIES(kommandercore PROPERTIES VERSION 4.2.0 SOVERSION 4 )
  INSTALL(TARGETS kommandercore ${INSTALL_TARGETS_DEFAULT_ARGS} )
-Index: b/kxsldbg/kxsldbgpart/CMakeLists.txt
-===================================================================
 --- a/kxsldbg/kxsldbgpart/CMakeLists.txt
 +++ b/kxsldbg/kxsldbgpart/CMakeLists.txt
 @@ -29,7 +29,7 @@
@@ -29,7 +25,18 @@ Index: b/kxsldbg/kxsldbgpart/CMakeLists.txt
  
  
 -target_link_libraries(kxsldbgpart ${KDE4_KTEXTEDITOR_LIBS} exslt ${LIBXML2_LIBRARIES} ${LIBXSLT_LIBRARIES} ${QT_QT3SUPPORT_LIBRARY})
-+target_link_libraries(kxsldbgpart ${KDE4_KTEXTEDITOR_LIBS} exslt ${LIBXML2_LIBRARIES} ${LIBXSLT_LIBRARIES} ${QT_QT3SUPPORT_LIBRARY} ${CMAKE_THREAD_LIBS_INIT})
++target_link_libraries(kxsldbgpart ${KDE4_KTEXTEDITOR_LIBS} exslt ${LIBXML2_LIBRARIES} ${LIBXSLT_LIBRARIES} ${QT_QT3SUPPORT_LIBRARY} ${CMAKE_THREAD_LIBS_INIT} ${KDE4_KPARTS_LIBS})
  
  install(TARGETS kxsldbgpart  DESTINATION ${PLUGIN_INSTALL_DIR})
+ 
+--- a/kfilereplace/CMakeLists.txt
++++ b/kfilereplace/CMakeLists.txt
+@@ -28,7 +28,7 @@
+ 
+ 
+ 
+-target_link_libraries(kfilereplacepart  ${KDE4_KDE3SUPPORT_LIBS} )
++target_link_libraries(kfilereplacepart  ${KDE4_KDE3SUPPORT_LIBS}  ${KDE4_KPARTS_LIBS} )
+ 
+ install(TARGETS kfilereplacepart  DESTINATION ${PLUGIN_INSTALL_DIR})
  
