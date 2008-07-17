@@ -1,9 +1,16 @@
 kdewebdev (4:4.0.98-1) experimental; urgency=low
 
-  * New upstream release
-  * Fixed linking issues due to new kdelibs5 build system (closes: #491174)
+  * New upstream release, Release Candidate 1.
 
- -- Xavier Vello <xavier.vello@gmail.com>  Thu, 17 Jul 2008 15:13:27 +0200
+  +++ Changes by Xavier Vello:
+
+  * Update patch 97 to fix linking issues. (Closes: #491174)
+
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+   * Bump build depends to >= 4:4.0.98.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 17 Jul 2008 17:59:03 +0200
 
 kdewebdev (4:4.0.84-1) experimental; urgency=low
 
