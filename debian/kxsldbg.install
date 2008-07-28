@@ -1,3 +1,4 @@
+
 usr/bin/kxsldbg
 usr/bin/xsldbg
 usr/lib/kde4/libkxsldbgpart.so
@@ -7,6 +8,7 @@ usr/share/doc/kde4/HTML/en/kxsldbg/1downarrow.png
 usr/share/doc/kde4/HTML/en/kxsldbg/breakpoints_window.png
 usr/share/doc/kde4/HTML/en/kxsldbg/callstack.docbook
 usr/share/doc/kde4/HTML/en/kxsldbg/callstack_window.png
+usr/share/doc/kde4/HTML/en/kxsldbg/common
 usr/share/doc/kde4/HTML/en/kxsldbg/configure.png
 usr/share/doc/kde4/HTML/en/kxsldbg/configure_window.png
 usr/share/doc/kde4/HTML/en/kxsldbg/credits.docbook
@@ -43,11 +45,15 @@ usr/share/doc/kde4/HTML/en/kxsldbg/xsldbg_source.png
 usr/share/doc/kde4/HTML/en/kxsldbg/xsldbg_stepdown.png
 usr/share/doc/kde4/HTML/en/kxsldbg/xsldbg_stepup.png
 usr/share/doc/kde4/HTML/en/xsldbg/commands.docbook
+usr/share/doc/kde4/HTML/en/xsldbg/common
 usr/share/doc/kde4/HTML/en/xsldbg/credits.docbook
 usr/share/doc/kde4/HTML/en/xsldbg/index.cache.bz2
 usr/share/doc/kde4/HTML/en/xsldbg/index.docbook
 usr/share/doc/kde4/HTML/en/xsldbg/introduction.docbook
+usr/share/doc/kde4/HTML/en/xsldbg/man-xsldbg.1.docbook
 usr/share/doc/kde4/HTML/en/xsldbg/usage.docbook
+usr/share/doc/kde4/HTML/en/xsldbg/xsldbghelp.xml
+usr/share/doc/kde4/HTML/en/xsldbg/xsldbghelp.xsl
 usr/share/icons/hicolor/16x16/actions/1downarrow.png
 usr/share/icons/hicolor/16x16/actions/configure.png
 usr/share/icons/hicolor/16x16/actions/exit.png
@@ -65,6 +71,7 @@ usr/share/icons/hicolor/16x16/actions/xsldbg_refresh.png
 usr/share/icons/hicolor/16x16/actions/xsldbg_source.png
 usr/share/icons/hicolor/16x16/actions/xsldbg_stepdown.png
 usr/share/icons/hicolor/16x16/actions/xsldbg_stepup.png
+usr/share/icons/hicolor/16x16/apps/kxsldbg.png
 usr/share/icons/hicolor/22x22/actions/1downarrow.png
 usr/share/icons/hicolor/22x22/actions/configure.png
 usr/share/icons/hicolor/22x22/actions/exit.png
@@ -80,6 +87,7 @@ usr/share/icons/hicolor/22x22/actions/xsldbg_refresh.png
 usr/share/icons/hicolor/22x22/actions/xsldbg_source.png
 usr/share/icons/hicolor/22x22/actions/xsldbg_stepdown.png
 usr/share/icons/hicolor/22x22/actions/xsldbg_stepup.png
+usr/share/icons/hicolor/32x32/apps/kxsldbg.png
 usr/share/kde4/apps/kxsldbg/empty.xml
 usr/share/kde4/apps/kxsldbg/empty.xsl
 usr/share/kde4/apps/kxsldbg/kxsldbg_shell.rc
@@ -107,13 +115,4 @@ usr/share/kde4/apps/xsldbg/test_import.xsl
 usr/share/kde4/apps/xsldbg/test_include_bot.xsl
 usr/share/kde4/apps/xsldbg/test_include_top.xsl
 usr/share/kde4/services/kxsldbg_part.desktop
-usr/share/doc/kde4/HTML/en/kxsldbg/common
-usr/share/doc/kde4/HTML/en/xsldbg/common
-usr/share/doc/kde4/HTML/en/xsldbg/man-xsldbg.1.docbook
-usr/share/doc/kde4/HTML/en/xsldbg/xsldbghelp.xml
-usr/share/doc/kde4/HTML/en/xsldbg/xsldbghelp.xsl
-usr/share/icons/hicolor/16x16/apps/kxsldbg.png
-usr/share/icons/hicolor/32x32/apps/kxsldbg.png
-usr/share/icons/locolor/16x16/apps/kxsldbg.png
-usr/share/icons/locolor/32x32/apps/kxsldbg.png
 usr/share/man/man1/xsldbg.1
