@@ -1,3 +1,10 @@
+kdewebdev (4:4.1.1-0) UNRELEASED; urgency=low
+
+  * New upstream release.
+  * Update patch 97 to fix linking issues.
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 01 Sep 2008 10:10:38 +0200
+
 kdewebdev (4:4.1.0-1) experimental; urgency=low
 
   * New upstream release.
