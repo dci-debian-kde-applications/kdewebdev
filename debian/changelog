@@ -1,8 +1,15 @@
-kdewebdev (4:4.1.2-1~lenny+1) lenny; urgency=low
+kdewebdev (4:4.1.3-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 07 Oct 2008 18:37:26 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 17 Nov 2008 22:31:33 +0100
+
+kdewebdev (4:4.1.3-1) experimental; urgency=low
+
+  * New upstream
+    -  bump b-d.
+
+ -- Sune Vuorela <debian@pusling.com>  Sat, 01 Nov 2008 20:40:00 +0100
 
 kdewebdev (4:4.1.2-1) experimental; urgency=low
 
