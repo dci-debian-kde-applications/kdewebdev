@@ -1,7 +1,7 @@
-kdewebdev (4:4.1.87+svn905493-0r1) UNRELEASED; urgency=low
+kdewebdev (4:4.1.96+svn906593-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
-  * Bump KDE build dependencies to 4.1.87.
+  * Bump KDE build dependencies to 4.1.97.
   * Bump Standards-Version to 3.8.0 and add README.source.
   * Remove explicit cmake build dependency.
 
