@@ -1,13 +1,14 @@
 usr/bin/kimagemapeditor
 usr/lib/kde4/libkimagemapeditor.so
 usr/share/applications/kde4/kimagemapeditor.desktop
+usr/share/doc/kde4/HTML/en/kimagemapeditor/common
 usr/share/doc/kde4/HTML/en/kimagemapeditor/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kimagemapeditor/index.docbook
 usr/share/icons/hicolor/16x16/apps/kimagemapeditor.png
 usr/share/icons/hicolor/22x22/actions/addpoint.png
 usr/share/icons/hicolor/22x22/actions/arrow.png
-usr/share/icons/hicolor/22x22/actions/circle2.png
 usr/share/icons/hicolor/22x22/actions/circle.png
+usr/share/icons/hicolor/22x22/actions/circle2.png
 usr/share/icons/hicolor/22x22/actions/freehand.png
 usr/share/icons/hicolor/22x22/actions/lower.png
 usr/share/icons/hicolor/22x22/actions/polygon.png
@@ -23,4 +24,3 @@ usr/share/kde4/apps/kimagemapeditor/kimagemapeditorui.rc
 usr/share/kde4/apps/kimagemapeditor/polygoncursor.png
 usr/share/kde4/apps/kimagemapeditor/removepointcursor.png
 usr/share/kde4/services/kimagemapeditorpart.desktop
-usr/share/doc/kde4/HTML/en/kimagemapeditor/common

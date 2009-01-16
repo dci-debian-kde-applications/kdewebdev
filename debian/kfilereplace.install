@@ -1,13 +1,13 @@
 usr/bin/kfilereplace
 usr/lib/kde4/libkfilereplacepart.so
 usr/share/applications/kde4/kfilereplace.desktop
-usr/share/dbus-1/interfaces/org.kde.kfilereplace.xml
 usr/share/doc/kde4/HTML/en/kfilereplace/addstringsdialog_window.png
 usr/share/doc/kde4/HTML/en/kfilereplace/backup_option.png
 usr/share/doc/kde4/HTML/en/kfilereplace/casesensitive_option.png
 usr/share/doc/kde4/HTML/en/kfilereplace/command_option.png
-usr/share/doc/kde4/HTML/en/kfilereplace/edit_add.png
+usr/share/doc/kde4/HTML/en/kfilereplace/common
 usr/share/doc/kde4/HTML/en/kfilereplace/edit.png
+usr/share/doc/kde4/HTML/en/kfilereplace/edit_add.png
 usr/share/doc/kde4/HTML/en/kfilereplace/edit_remove.png
 usr/share/doc/kde4/HTML/en/kfilereplace/eraser.png
 usr/share/doc/kde4/HTML/en/kfilereplace/filereplace.png
@@ -19,9 +19,9 @@ usr/share/doc/kde4/HTML/en/kfilereplace/invert.png
 usr/share/doc/kde4/HTML/en/kfilereplace/kfr_standalone_main_window_1.png
 usr/share/doc/kde4/HTML/en/kfilereplace/optionsdialog_main_window_1.png
 usr/share/doc/kde4/HTML/en/kfilereplace/optionsdialog_main_window_2.png
+usr/share/doc/kde4/HTML/en/kfilereplace/project.png
 usr/share/doc/kde4/HTML/en/kfilereplace/projectdialog_main_window_1.png
 usr/share/doc/kde4/HTML/en/kfilereplace/projectdialog_main_window_2.png
-usr/share/doc/kde4/HTML/en/kfilereplace/project.png
 usr/share/doc/kde4/HTML/en/kfilereplace/recursive_option.png
 usr/share/doc/kde4/HTML/en/kfilereplace/regularexpression_option.png
 usr/share/doc/kde4/HTML/en/kfilereplace/report_example.png
@@ -43,4 +43,3 @@ usr/share/kde4/apps/kfilereplacepart/icons/crystalsvg/22x22/actions/recursive_op
 usr/share/kde4/apps/kfilereplacepart/icons/crystalsvg/22x22/actions/regularexpression_option.png
 usr/share/kde4/apps/kfilereplacepart/kfilereplacepartui.rc
 usr/share/kde4/services/kfilereplacepart.desktop
-usr/share/doc/kde4/HTML/en/kfilereplace/common
