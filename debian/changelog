@@ -1,12 +1,13 @@
-kdewebdev (4:4.1.96+svn910119-0r1) UNRELEASED; urgency=low
+kdewebdev (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Bump KDE build dependencies to 4.1.96.
+  * Bump KDE build dependencies to 4.2.0.
   * Bump Standards-Version to 3.8.0 and add README.source.
   * Remove explicit cmake build dependency.
+  * Update Suggests on khelpcenter to khelpcenter4.
 
   +++ Changes by Modestas Vainius:
 

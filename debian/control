@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Xavier Vello <xavier.vello@gmail.com>
 Build-Depends: cdbs, debhelper (>= 5), quilt, 
- kdelibs5-dev (>= 4:4.1.96), kdepimlibs5-dev (>= 4:4.1.87),
+ kdelibs5-dev (>= 4:4.2.0), kdepimlibs5-dev (>= 4:4.2.0),
  libtidy-dev, zlib1g-dev, libboost-dev, libxslt-dev
 Standards-Version: 3.8.0
 Homepage: http://kdewebdev.org/
@@ -50,7 +50,7 @@ Package: klinkstatus
 Architecture: any
 Section: web
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: web link validity checker for KDE 4
  KLinkStatus is KDE's web link validity checker. It allows you to
  search internal and external links throughout your web site. Simply
