@@ -3,32 +3,23 @@ Thu, 24 May 2007 03:02:20 +0200.
 
 It was downloaded from ftp://ftp.kde.org
 
-Upstream Author: The KDE development team <kde-core-devel@kde.org>
-Numerous people, too many to count, have contributed to kdelibs as a
-whole. The KDE project tries to make an extensive list of people who
-contributed to KDE at http://www.kde.org/people/credits/
+Upstream Authors and copyright holders:
 
+    © 2004-2008 Paulo Moura Guedes <moura@kdewebdev.org>
+    © 2000, 2003-2006 Michal Rudolf <mrudolf@kdewebdev.org>
+    © 2001-2002, 2004, 2006, 2008 Keith Isdale <keith@kdewebdev.org> 
+    © 2000-2002 Trolltech AS.
+    © 2002-2004 Marc Britton <consume@optusnet.com.au>
+    © 2004, 2008 Eric Laffoon <sequitur@kde.org> <eric@kdewebdev.org>
+    © 2002-2004, 2008 Andras Mantia <amantia@kde.org>
+    © 2003-2004 Emiliano Gulmini <emi_barbarossa@yahoo.it>
+    © 2001-2003, 2007 Jan Schäfer <janschaefer@users.sourceforge.net>
+    © 1999 François Dupoux <dupoux@dupoux.com>
+    © 2007 David Faure <faure@kde.org>
+    © 1999 François Dupoux <dupoux@dupoux.com>
+    © 2002 Charles Reitzel, Arlington, MA USA
+    © 1998-1999 Alexei Dets <dets@services.ru>
 
-Copyright: 
-
-Copyright (C) 1989, 1991 Free Software Foundation, Inc.
-Copyright (C) 1998, 1999 Alexei Dets <dets@services.ru>
-Copyright (C) 1999 by Francois Dupoux <dupoux@dupoux.com>
-Copyright (C) 2000 Frederik Fouvry
-Copyright (C) 2000-2002 Trolltech AS. All rights reserved.
-Copyright (C) 2000-2004 Michal Rudolf <mrudolf@kdewebdev.org>
-Copyright (C) 2001 <kurt@granroth.org>
-Copyright (C) 2001-2008 Keith Isdale <keith@kdewebdev.org>
-Copyright (C) 2001-2007 by Jan Schaefer
-Copyright (C) 2002 Charles Reitzel, Arlington, MA USA
-Copyright (C) 2002-2004 Marc Britton <consume@optusnet.com.au>
-Copyright (C) 2004 Emiliano Gulmini
-Copyright (C) 2004 Michal Rudolf <mrudolf@kdewebdwev.org>
-Copyright (C) 2004-2008 by Andras Mantia <amantia@kde.org>
-Copyright (C) 2004-2008 by Eric Laffoon <sequitur@kde.org>
-Copyright (C) 2004-2005 by Michal Rudolf <mrudolf@kdewebdev.org>
-Copyright (C) 2004-2008 by Paulo Moura Guedes 
-Copyright (C) 2007 David Faure <faure@kde.org>
 
 License:
 
