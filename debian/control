@@ -104,7 +104,8 @@ Description: visual dialog builder and executor tool
 Package: kdewebdev-dbg
 Section: libdevel
 Architecture: any
-Depends: kdelibs-dbg
+Depends: kdebase-runtime-dbg
+Suggests: kdewebdev (= ${source:Version})
 Priority: extra
 Description: debugging symbols for the KDE 4 web development module
  This package contains the debugging symbols associated with kdewebdev.
