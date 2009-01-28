@@ -23,82 +23,82 @@ Upstream Authors and copyright holders:
 
 License:
 
-    Files under cmake/ is referencing a cmake scripts license file, unfortunately 
-	not in the tarball. It is common for all kde modules and has the following content:
+Files under cmake/ are referencing a cmake scripts license file, unfortunately 
+not in the tarball. It is common for all kde modules and has the following content:
 
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-1. Redistributions of source code must retain the copyright
-   notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the copyright
-   notice, this list of conditions and the following disclaimer in the
-   documentation and/or other materials provided with the distribution.
-3. The name of the author may not be used to endorse or promote products 
-   derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
-IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
-OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
-IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
-INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
-NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
-DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
-THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
-(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
-THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-    Files under doc/ is under GNU Free Documentation License without invariant
-	asections and cover text. This license isn't specifically included, 
-	but the general kde FDLNotice is referenced. 
-
-    The full text of the GNU Free Documentation License can be found on Debian 
-	systems in /usr/share/common-licenses/GFDL
-
-kommander/*
-	A mix of GPLv2 or later and GPLv2 files. The GPLv2only files are copyright
-	by Trolltech and originating in Qt. Qt has later been relicensed under GPLv2 or GPLv3
-
-For now, consider it GPLv2.
+    | Redistribution and use in source and binary forms, with or without
+    | modification, are permitted provided that the following conditions
+    | are met:
+    | 
+    | 1. Redistributions of source code must retain the copyright
+    |    notice, this list of conditions and the following disclaimer.
+    | 2. Redistributions in binary form must reproduce the copyright
+    |    notice, this list of conditions and the following disclaimer in the
+    |    documentation and/or other materials provided with the distribution.
+    | 3. The name of the author may not be used to endorse or promote products 
+    |    derived from this software without specific prior written permission.
+    | 
+    | THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+    | IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+    | OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+    | IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+    | INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+    | NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+    | DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+    | THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+    | (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+    | THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-    This package is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; version 2 of the License.
- 
-    This package is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
- 
-    You should have received a copy of the GNU General Public License
-    along with this package; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+Files under doc/
 
-On Debian systems, the complete text of the GNU General
-Public License can be found in `/usr/share/common-licenses/GPL-2'.
+These files are under the GNU Free Documentation License v1.2
 
+    | Permission is granted to copy, distribute and/or modify this
+    | document under the terms of the GNU Free Documentation License,
+    | Version 1.1 or any later version published by the Free Software
+    | Foundation; with no Invariant Sections, with no Front-Cover Texts,
+    | and with no Back-Cover Texts.
 
-The rest is under GPLv2 or later. Occasionally, a LGPLv2 or later file is around, 
-but together with GPLv2 or later files, it effectively becomes GPLv2 or later.
+    The full text of the GNU Free Documentation License is available on
+    Debian systems in /usr/share/common-licenses/GFDL-1.2
+
+    As well, all the Manpages.dox included are under this license, unless 
+    specified otherwise.
 
 
-    This package is free software; you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation; either version 2 of the License, or
-    (at your option) any later version.
- 
-    This package is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
- 
-    You should have received a copy of the GNU General Public License
-    along with this package; if not, write to the Free Software
-    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+Files under kfilereplace/
+Files under kimagemapeditor/
+Files under klinkstatus/
+
+These files are under the GPL v2 or later.
 
 
-The Debian packaging is (C) 2007-2008 by Debian Qt/KDE Maintainers and 
+Files under kommander/
+
+These files are under the GPL v2. Except:
+    kommander/lib/kommandercore_export.h
+    kommander/widgets/kommanderwidgets_export.h
+that are under the LGPL v2 or later.
+
+
+Files under kxsldbg/
+
+These files are under the LGPL v2.
+
+
+Files under templates/
+
+These files are under the GPL v2 
+
+
+On Debian systems, the complete text of the GNU General Public License 
+version 2 can be found in /usr/share/common-licenses/GPL-2
+
+On Debian systems, the complete text of the GNU Library General Public 
+License version 2 can be found in /usr/share/common-licenses/LGPL-2
+
+
+The Debian packaging is (C) 2007-2009 by Debian Qt/KDE Maintainers and 
 is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
