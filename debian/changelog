@@ -1,10 +1,12 @@
-kdewebdev (4:4.2.0-2) UNRELEASED; urgency=low
+kdewebdev (4:4.2.1-1) experimental; urgency=low
 
+  * New upstream release.
   * Update kdewebdev-dbg:
     - Replace wrong Depends on kdelibs-dbg with kdebase-runtime-dbg.
     - Add Suggests on metapackage kdewebdev.
+   * Add Debian Vcs URLs in debian/control.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 28 Jan 2009 22:25:32 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 08 Mar 2009 23:44:48 +0100
 
 kdewebdev (4:4.2.0-1) experimental; urgency=low
 
