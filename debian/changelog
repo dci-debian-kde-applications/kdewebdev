@@ -1,8 +1,8 @@
-kdewebdev (4:4.2.2-0r1) UNRELEASED; urgency=low
+kdewebdev (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 02 Apr 2009 22:35:26 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 04 Apr 2009 23:24:31 +0200
 
 kdewebdev (4:4.2.1-1) experimental; urgency=low
 
