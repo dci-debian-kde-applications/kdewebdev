@@ -1,3 +1,9 @@
+kdewebdev (4:4.2.2-2) unstable; urgency=low
+
+  * Update sections.
+
+ -- Sune Vuorela <debian@pusling.com>  Mon, 06 Apr 2009 23:12:35 +0200
+
 kdewebdev (4:4.2.2-1) unstable; urgency=low
 
   * New upstream release.

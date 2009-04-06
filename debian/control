@@ -104,7 +104,7 @@ Description: visual dialog builder and executor tool
  This package is part of KDE 4 web development module.
 
 Package: kdewebdev-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Depends: kdebase-runtime-dbg
 Suggests: kdewebdev (= ${source:Version})
