@@ -82,6 +82,7 @@ Package: kommander
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: kommander-dev
 Description: visual dialog builder and executor tool
  Kommander is a visual dialog building tool whose primary objective is
  to create as much functionality as possible without using any scripting

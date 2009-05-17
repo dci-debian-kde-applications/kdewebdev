@@ -1,8 +1,18 @@
-kdewebdev (4:4.2.2-2) UNRELEASED; urgency=low
+kdewebdev (4:4.2.3-1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+  ++ Changes by Armin Berres:
+
+  * Update patch 01 to make CMake 2.6.4 happy.
+  * Install libkommanderwidgets.so and add Replaces: kommander-dev.
+    (Closes: #524210) 
+  
+  +++ Changes by Sune Vuorela:  
 
   * Update sections.
 
- -- Sune Vuorela <debian@pusling.com>  Mon, 06 Apr 2009 23:12:35 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 17 May 2009 17:28:43 -0400
 
 kdewebdev (4:4.2.2-1) unstable; urgency=low
 
