@@ -1,6 +1,6 @@
-kdewebdev (4:4.2.98-0~pre1) UNRELEASED; urgency=low
+kdewebdev (4:4.3.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream release, RC3.
+  * New upstream release.
   * Bump Standards-Version to 3.8.2, no changes required.
   * Bump KDE build dependencies to 4.2.98.
 
