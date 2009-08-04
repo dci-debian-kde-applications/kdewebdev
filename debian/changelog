@@ -1,10 +1,10 @@
-kdewebdev (4:4.3.0-0r1) UNRELEASED; urgency=low
+kdewebdev (4:4.3.0-1) unstable; urgency=low
 
   * New upstream release.
   * Bump Standards-Version to 3.8.2, no changes required.
   * Bump KDE build dependencies to 4.3.0.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 01 Aug 2009 22:14:11 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 04 Aug 2009 09:21:57 +0200
 
 kdewebdev (4:4.2.4-1) unstable; urgency=low
 
