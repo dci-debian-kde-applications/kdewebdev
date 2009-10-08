@@ -1,4 +1,4 @@
-kdewebdev (4:4.3.2-2) unstable; urgency=low
+kdewebdev (4:4.3.2-2) UNRELEASED; urgency=low
 
   * Add klinkstatus.lintian-overrides for unusual interpreter kross. 
   * Add source.lintian-overrides to ignore lintian warning about missing
