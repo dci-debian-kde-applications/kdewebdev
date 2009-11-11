@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Xavier Vello <xavier.vello@gmail.com>
 Build-Depends: cdbs, debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4),
- kdelibs5-dev (>= 4:4.3.2), kdepimlibs5-dev (>= 4:4.3.2),
+ kdelibs5-dev (>= 4:4.3.3), kdepimlibs5-dev (>= 4:4.3.3),
  libtidy-dev, zlib1g-dev, libboost-dev, libxslt-dev
 Standards-Version: 3.8.3
 Homepage: http://kdewebdev.org/
