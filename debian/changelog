@@ -1,4 +1,4 @@
-kdewebdev (4:4.3.4-0r1) UNRELEASED; urgency=low
+kdewebdev (4:4.3.4-1) unstable; urgency=low
 
   * New upstream release.
 
@@ -12,7 +12,7 @@ kdewebdev (4:4.3.4-0r1) UNRELEASED; urgency=low
 
   * Bump build depends.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:52 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 09 Dec 2009 00:24:13 +0200
 
 kdewebdev (4:4.3.2-1) unstable; urgency=low
 
