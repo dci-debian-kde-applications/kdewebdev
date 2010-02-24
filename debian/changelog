@@ -1,9 +1,9 @@
-kdewebdev (4:4.3.4-2) UNRELEASED; urgency=low
+kdewebdev (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
 
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 17:48:54 +0200
+ -- Modestas Vainius <modax@debian.org>  Thu, 25 Feb 2010 01:20:06 +0200
 
 kdewebdev (4:4.3.4-1) unstable; urgency=low
 
