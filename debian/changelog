@@ -7,6 +7,7 @@ kdewebdev (4:4.4.1-0) UNRELEASED; urgency=low
   * Fix Vcs-Browser URL.
   * Add cmake to Build-Depends.
   * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+  * Bump Standards-Version to 3.8.4: no changes needed.
 
  -- Modestas Vainius <modax@debian.org>  Thu, 25 Feb 2010 01:20:06 +0200
 
