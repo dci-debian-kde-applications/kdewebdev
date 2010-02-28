@@ -16,7 +16,7 @@ Package: kdewebdev
 Architecture: all
 Section: kde
 Depends: kfilereplace (>= ${source:Version}), kimagemapeditor (>= ${source:Version}), 
- klinkstatus (>= ${source:Version}), kxsldbg (>= ${source:Version}),
+ klinkstatus (>= ${source:Version}), 
  kommander (>= ${source:Version})
 Description: web development apps from the official KDE 4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
@@ -61,21 +61,6 @@ Description: web link validity checker for KDE 4
  .
  You can also check local files, or files over ftp:, fish: or any other
  KIO protocols. For performance, links can be checked simultaneously.
- .
- This package is part of KDE 4 web development module.
-
-Package: kxsldbg
-Architecture: any
-Section: text
-Depends: ${shlibs:Depends}
-Description: graphical XSLT debugger for KDE 4
- KXSLDbg is a debugger for XSLT scripts. It includes a graphical user
- interface as well as a text-based debugger. KXSLDbg can be run as a
- standalone application or as an embedded KDE part.
- .
- XSLT is an XML language for defining transformations of XML files from
- XML to some other arbitrary format, such as XML, HTML, plain text, etc.,
- using standard XSLT stylesheets.
  .
  This package is part of KDE 4 web development module.
 

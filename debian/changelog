@@ -11,6 +11,10 @@ kdewebdev (4:4.4.1-0) UNRELEASED; urgency=low
   * Bump KDE build dependencies to 4:4.4.
   * Bump pkg-kde-tools build dependency to 0.6.4.
 
+  [ Sune Vuorela ]
+  * kxsldbg removed upstream
+  * update installed files
+
  -- Modestas Vainius <modax@debian.org>  Thu, 25 Feb 2010 01:20:06 +0200
 
 kdewebdev (4:4.3.4-1) unstable; urgency=low
