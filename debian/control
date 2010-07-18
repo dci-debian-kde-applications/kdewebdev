@@ -2,7 +2,7 @@ Source: kdewebdev
 Section: web
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <debian@pusling.com>, Xavier Vello <xavier.vello@gmail.com>, Modestas Vainius <modax@debian.org>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Sune Vuorela <sune@debian.org>, Modestas Vainius <modax@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  cdbs, cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
  kdelibs5-dev (>= 4:4.4), kdepimlibs5-dev (>= 4:4.4),
@@ -18,43 +18,38 @@ Section: kde
 Depends: kfilereplace (>= ${source:Version}), kimagemapeditor (>= ${source:Version}), 
  klinkstatus (>= ${source:Version}), 
  kommander (>= ${source:Version})
-Description: web development apps from the official KDE 4 release
- KDE (the K Desktop Environment) is a powerful Open Source graphical
- desktop environment for Unix workstations. It combines ease of use,
- contemporary functionality, and outstanding graphical design with the
- technological superiority of the Unix operating system.
- .
+Description: web development apps from the official KDE release
  This metapackage includes a collection of web development applications
- provided with the official release of KDE 4.
+ provided with the official release of KDE.
 
 Package: kfilereplace
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}
-Description: batch search-and-replace component for KDE 4
+Description: batch search-and-replace component 
  KFileReplace is an embedded component for KDE that acts as a batch
  search-and-replace tool. It allows you to replace one expression with
  another in many files at once.
  .
- This package is part of KDE 4 web development module.
+ This package is part of KDE web development module.
 
 Package: kimagemapeditor
 Architecture: any
 Section: editors
 Depends: ${shlibs:Depends}
-Description: HTML image map editor for KDE 4
+Description: HTML image map editor
  KImageMapEditor is a tool that allows you to edit image maps in HTML
  files. As well as providing a standalone application, KImageMapEditor
  makes itself available as a KPart for embedding into larger applications.
  .
- This package is part of KDE 4 web development module.
+ This package is part of KDE web development module.
 
 Package: klinkstatus
 Architecture: any
 Section: web
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter4
-Description: web link validity checker for KDE 4
+Description: web link validity checker
  KLinkStatus is KDE's web link validity checker. It allows you to
  search internal and external links throughout your web site. Simply
  point it to a single page and choose the depth to search.
@@ -62,7 +57,7 @@ Description: web link validity checker for KDE 4
  You can also check local files, or files over ftp:, fish: or any other
  KIO protocols. For performance, links can be checked simultaneously.
  .
- This package is part of KDE 4 web development module.
+ This package is part of KDE web development module.
 
 Package: kommander
 Architecture: any
@@ -88,7 +83,7 @@ Description: visual dialog builder and executor tool
  As well as building dialogs, Kommander may be expanded to create full
  mainwindow applications.
  .
- This package is part of KDE 4 web development module.
+ This package is part of KDE web development module.
 
 Package: kdewebdev-dbg
 Section: debug
@@ -96,7 +91,7 @@ Architecture: any
 Depends: kdebase-runtime-dbg
 Suggests: kdewebdev (= ${source:Version})
 Priority: extra
-Description: debugging symbols for the KDE 4 web development module
+Description: debugging symbols for the KDE web development module
  This package contains the debugging symbols associated with kdewebdev.
  They will automatically be used by gdb for debugging kdewebdev-related
  issues.
