@@ -64,7 +64,7 @@ kdewebdev (4:4.3.4-1) unstable; urgency=low
 
   +++ Changes by Karl Ferdinand Ebert:
 
-  * Add klinkstatus.lintian-overrides for unusual interpreter kross. 
+  * Add klinkstatus.lintian-overrides for unusual interpreter kross.
   * Add source.lintian-overrides to ignore lintian warning about missing
     debug depends.
 
@@ -97,9 +97,9 @@ kdewebdev (4:4.2.4-1) unstable; urgency=low
 
   * Update patch 01 to make CMake 2.6.4 happy.
   * Install libkommanderwidgets.so and add Replaces: kommander-dev.
-    (Closes: #524210) 
-  
-  +++ Changes by Sune Vuorela:  
+    (Closes: #524210)
+
+  +++ Changes by Sune Vuorela:
 
   * Update sections.
 
@@ -199,7 +199,7 @@ kdewebdev (4:4.0.84-1) experimental; urgency=low
   * Some description tweaking in the control and copyright files.
   * Add versioned build depends for kdelibs5-dev and kdepimlibs5-dev.
   * Add kommander to the kdewebdev metapackage.
-  * Remove Suggests on kommander-dev, kdewebdev-doc-html and quanta that does 
+  * Remove Suggests on kommander-dev, kdewebdev-doc-html and quanta that does
     not exist in KDE 4.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 07 Jul 2008 03:01:30 +0200
