@@ -1,1 +1,2 @@
-klinkstatus: unusual-interpreter ./usr/share/kde4/apps/klinkstatus/scripts/statistics.rb #!kross
+klinkstatus: unusual-interpreter usr/share/kde4/apps/klinkstatus/scripts/statistics.rb #!kross
+klinkstatus: package-name-doesnt-match-sonames libklinkstatuscommon4

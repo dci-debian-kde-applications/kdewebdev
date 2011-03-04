@@ -9,6 +9,7 @@ kdewebdev (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump KDE SC build dependencies to 4:4.6.
   * Bump Standards-Version to 3.9.1, no changes needed.
+  * Update lintian overrides.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 26 Jul 2010 23:24:39 +0300
 
