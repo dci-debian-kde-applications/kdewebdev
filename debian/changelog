@@ -1,4 +1,4 @@
-kdewebdev (4:4.6.1-0r3) UNRELEASED; urgency=low
+kdewebdev (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -8,7 +8,7 @@ kdewebdev (4:4.6.1-0r3) UNRELEASED; urgency=low
   * Strip sequence numbers from debian/patches/*.
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Bump KDE SC build dependencies to 4:4.6.
   * Bump Standards-Version to 3.9.1, no changes needed.
   * Update lintian overrides.
