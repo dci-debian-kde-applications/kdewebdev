@@ -5,6 +5,9 @@ kdewebdev (4:4.6.4-0r0) UNRELEASED; urgency=low
   [ Ana Beatriz Guerrero Lopez ]
   * Remove myself from Uploaders.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:42 +0300
 
 kdewebdev (4:4.6.3-1) unstable; urgency=low
