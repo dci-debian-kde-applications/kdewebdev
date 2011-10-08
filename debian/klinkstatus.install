@@ -5,9 +5,14 @@ usr/lib/kde4/krossmoduleklinkstatus.so
 usr/lib/libklinkstatuscommon.so.4
 usr/lib/libklinkstatuscommon.so.4.0.0
 usr/share/applications/kde4/klinkstatus.desktop
+usr/share/doc/kde/HTML/en/klinkstatus/check-settings.png
 usr/share/doc/kde/HTML/en/klinkstatus/common
+usr/share/doc/kde/HTML/en/klinkstatus/identification-settings.png
 usr/share/doc/kde/HTML/en/klinkstatus/index.cache.bz2
 usr/share/doc/kde/HTML/en/klinkstatus/index.docbook
+usr/share/doc/kde/HTML/en/klinkstatus/login-dialog.png
+usr/share/doc/kde/HTML/en/klinkstatus/mail-transport-settings.png
+usr/share/doc/kde/HTML/en/klinkstatus/results-settings.png
 usr/share/doc/kde/HTML/en/klinkstatus/screenshot.png
 usr/share/icons/hicolor/128x128/apps/klinkstatus.png
 usr/share/icons/hicolor/16x16/apps/klinkstatus.png

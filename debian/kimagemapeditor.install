@@ -2,8 +2,10 @@ usr/bin/kimagemapeditor
 usr/lib/kde4/libkimagemapeditor.so
 usr/share/applications/kde4/kimagemapeditor.desktop
 usr/share/doc/kde/HTML/en/kimagemapeditor/common
+usr/share/doc/kde/HTML/en/kimagemapeditor/configure.png
 usr/share/doc/kde/HTML/en/kimagemapeditor/index.cache.bz2
 usr/share/doc/kde/HTML/en/kimagemapeditor/index.docbook
+usr/share/doc/kde/HTML/en/kimagemapeditor/mainwindow.png
 usr/share/icons/hicolor/16x16/apps/kimagemapeditor.png
 usr/share/icons/hicolor/22x22/actions/addpoint.png
 usr/share/icons/hicolor/22x22/actions/arrow.png
