@@ -1,9 +1,9 @@
-kdewebdev (4:4.7.2-0r0) UNRELEASED; urgency=low
+kdewebdev (4:4.7.2-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.7.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.7.2.
   * Bump KDE SC build dependencies to 4:4.7.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Oct 2011 22:26:07 +0200
