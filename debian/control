@@ -89,7 +89,7 @@ Description: visual dialog builder and executor tool
 Package: kdewebdev-dbg
 Section: debug
 Architecture: any
-Depends: kdebase-runtime-dbg
+Depends: kde-runtime-dbg
 Suggests: kdewebdev (= ${source:Version})
 Priority: extra
 Description: debugging symbols for the KDE web development module
