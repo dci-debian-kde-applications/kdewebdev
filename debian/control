@@ -16,7 +16,8 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdewebdev.git
 Package: kdewebdev
 Architecture: all
 Section: kde
-Depends: kfilereplace (>= ${source:Version}), kimagemapeditor (>= ${source:Version}), 
+Depends: ${misc:Depends}, kfilereplace (>= ${source:Version}),
+ kimagemapeditor (>= ${source:Version}),
  klinkstatus (>= ${source:Version}), 
  kommander (>= ${source:Version})
 Description: web development apps from the official KDE release
@@ -26,7 +27,7 @@ Description: web development apps from the official KDE release
 Package: kfilereplace
 Architecture: any
 Section: kde
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: batch search-and-replace component 
  KFileReplace is an embedded component for KDE that acts as a batch
  search-and-replace tool. It allows you to replace one expression with
@@ -37,7 +38,7 @@ Description: batch search-and-replace component
 Package: kimagemapeditor
 Architecture: any
 Section: editors
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: HTML image map editor
  KImageMapEditor is a tool that allows you to edit image maps in HTML
  files. As well as providing a standalone application, KImageMapEditor
@@ -48,7 +49,7 @@ Description: HTML image map editor
 Package: klinkstatus
 Architecture: any
 Section: web
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
 Description: web link validity checker
  KLinkStatus is KDE's web link validity checker. It allows you to
@@ -89,7 +90,7 @@ Description: visual dialog builder and executor tool
 Package: kdewebdev-dbg
 Section: debug
 Architecture: any
-Depends: kde-runtime-dbg
+Depends: ${misc:Depends}, kde-runtime-dbg
 Suggests: kdewebdev (= ${source:Version})
 Priority: extra
 Description: debugging symbols for the KDE web development module
