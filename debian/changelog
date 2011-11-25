@@ -7,7 +7,7 @@ kdewebdev (4:4.7.2-0r1) UNRELEASED; urgency=low
   * Bump KDE SC build dependencies to 4:4.7.
 
   [ Pino Toscano ]
-  * Manage some packages renamings:
+  * Manage some packages renamings (Closes: #650011):
     - kdewebdev-dbg depends on kde-runtime-dbg instead of kdebase-runtime-dbg.
   * Add ${misc:Depends} where missing.
 
