@@ -1,4 +1,4 @@
-kdewebdev (4:4.7.2-0r1) UNRELEASED; urgency=low
+kdewebdev (4:4.7.2-0r1) experimental; urgency=low
 
   * New upstream release.
 
@@ -11,7 +11,7 @@ kdewebdev (4:4.7.2-0r1) UNRELEASED; urgency=low
     - kdewebdev-dbg depends on kde-runtime-dbg instead of kdebase-runtime-dbg.
   * Add ${misc:Depends} where missing.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 08 Oct 2011 22:26:07 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:46:20 -0300
 
 kdewebdev (4:4.6.5-1) unstable; urgency=low
 
