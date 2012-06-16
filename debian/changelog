@@ -5,6 +5,7 @@ kdewebdev (4:4.8.4-0r0) UNRELEASED; urgency=low
   [ Eshat Cakar ]
   * Add watch file.
   * Bump kde-sc-dev-latest build dependency to 4:4.8.4.
+  * Bump kdelibs5-dev and kdepimlibs5-dev build dependency to 4.8.
 
  -- Eshat Cakar <info@eshat.de>  Sun, 17 Jun 2012 01:02:59 +0200
 
