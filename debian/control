@@ -3,7 +3,7 @@ Section: web
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
-           Modestas Vainius <modax@debian.org>, ,
+           Modestas Vainius <modax@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
@@ -20,7 +20,7 @@ Architecture: all
 Section: kde
 Depends: ${misc:Depends}, kfilereplace (>= ${source:Version}),
  kimagemapeditor (>= ${source:Version}),
- klinkstatus (>= ${source:Version}), 
+ klinkstatus (>= ${source:Version}),
  kommander (>= ${source:Version})
 Description: web development apps from the official KDE release
  This metapackage includes a collection of web development applications
@@ -30,7 +30,7 @@ Package: kfilereplace
 Architecture: any
 Section: kde
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: batch search-and-replace component 
+Description: batch search-and-replace component
  KFileReplace is an embedded component for KDE that acts as a batch
  search-and-replace tool. It allows you to replace one expression with
  another in many files at once.
