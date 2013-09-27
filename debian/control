@@ -9,6 +9,7 @@ Uploaders: Sune Vuorela <sune@debian.org>,
 Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
  kdepimlibs5-dev (>= 4:4.10),
+ nepomuk-core-dev,
  libtidy-dev, zlib1g-dev, libboost-dev, libxslt-dev
 Standards-Version: 3.9.4
 Homepage: http://kdewebdev.org/
