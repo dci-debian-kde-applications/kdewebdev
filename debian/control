@@ -6,11 +6,16 @@ Uploaders: Sune Vuorela <sune@debian.org>,
            Modestas Vainius <modax@debian.org>,
            Eshat Cakar <info@eshat.de>,
            Maximiliano Curia <maxy@debian.org>
-Build-Depends: kde-sc-dev-latest (>= 4:4.11),
- cmake, debhelper (>= 9), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.11),
- nepomuk-core-dev (>= 4:4.11),
- libtidy-dev, zlib1g-dev, libboost-dev, libxslt-dev
+Build-Depends: cmake,
+               debhelper (>= 9),
+               kde-sc-dev-latest (>= 4:4.11),
+               kdepimlibs5-dev (>= 4:4.11),
+               libboost-dev,
+               libtidy-dev,
+               libxslt-dev,
+               nepomuk-core-dev (>= 4:4.11),
+               pkg-kde-tools (>= 0.12),
+               zlib1g-dev
 Standards-Version: 3.9.5
 Homepage: http://kdewebdev.org/
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdewebdev.git
@@ -19,10 +24,11 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdewebdev.git
 Package: kdewebdev
 Architecture: all
 Section: kde
-Depends: ${misc:Depends}, kfilereplace (>= ${source:Version}),
- kimagemapeditor (>= ${source:Version}),
- klinkstatus (>= ${source:Version}),
- kommander (>= ${source:Version})
+Depends: kfilereplace (>= ${source:Version}),
+         kimagemapeditor (>= ${source:Version}),
+         klinkstatus (>= ${source:Version}),
+         kommander (>= ${source:Version}),
+         ${misc:Depends}
 Description: web development apps from the official KDE release
  This metapackage includes a collection of web development applications
  provided with the official release of KDE.
@@ -30,7 +36,7 @@ Description: web development apps from the official KDE release
 Package: kfilereplace
 Architecture: any
 Section: kde
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: batch search-and-replace component
  KFileReplace is an embedded component for KDE that acts as a batch
  search-and-replace tool. It allows you to replace one expression with
@@ -41,7 +47,7 @@ Description: batch search-and-replace component
 Package: kimagemapeditor
 Architecture: any
 Section: editors
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: HTML image map editor
  KImageMapEditor is a tool that allows you to edit image maps in HTML
  files. As well as providing a standalone application, KImageMapEditor
@@ -52,7 +58,7 @@ Description: HTML image map editor
 Package: klinkstatus
 Architecture: any
 Section: web
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Suggests: khelpcenter4
 Description: web link validity checker
  KLinkStatus is KDE's web link validity checker. It allows you to
@@ -67,7 +73,7 @@ Description: web link validity checker
 Package: kommander
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends}
 Replaces: kommander-dev
 Description: visual dialog builder and executor tool
  Kommander is a visual dialog building tool whose primary objective is
@@ -93,7 +99,7 @@ Description: visual dialog builder and executor tool
 Package: kdewebdev-dbg
 Section: debug
 Architecture: any
-Depends: ${misc:Depends}, kde-runtime-dbg
+Depends: kde-runtime-dbg, ${misc:Depends}
 Suggests: kdewebdev (= ${source:Version})
 Priority: extra
 Description: debugging symbols for the KDE web development module
