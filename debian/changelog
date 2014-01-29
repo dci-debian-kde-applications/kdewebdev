@@ -1,6 +1,6 @@
 kdewebdev (4:4.11.3-2) UNRELEASED; urgency=medium
 
-  * 
+  * Do not disable an empty test set.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 29 Jan 2014 17:14:41 +0100
 
