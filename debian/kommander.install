@@ -1,6 +1,5 @@
 usr/bin/kommander
 usr/lib/libkommandercore.so.4
 usr/lib/libkommandercore.so.4.2.0
-usr/lib/libkommanderwidgets.so.4
-usr/lib/libkommanderwidgets.so.4.2.0
+usr/lib/kde4/kommanderwidgets.so
 usr/share/applnk/.hidden/kommander.desktop

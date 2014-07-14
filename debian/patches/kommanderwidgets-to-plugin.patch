@@ -1,0 +1,52 @@
+--- a/kommander/widgets/CMakeLists.txt
++++ b/kommander/widgets/CMakeLists.txt
+@@ -13,7 +13,7 @@
+ 
+ ########### next target ###############
+ 
+-SET(kommanderwidgets_LIB_SRCS
++SET(kommanderwidgets_PART_SRCS
+ aboutdialog.cpp
+ fontdialog.cpp
+ buttongroup.cpp
+@@ -50,7 +50,7 @@
+ wizard.cpp
+ )
+ 
+-KDE4_ADD_LIBRARY(kommanderwidgets SHARED ${kommanderwidgets_LIB_SRCS})
++kde4_add_plugin(kommanderwidgets ${kommanderwidgets_PART_SRCS})
+ 
+ ########### next target ###############
+ 
+@@ -98,9 +98,7 @@
+  ${KDE4_KIO_LIBS} 
+ )
+ 
+-SET_TARGET_PROPERTIES(kommanderwidgets PROPERTIES VERSION 4.2.0 SOVERSION 4 )
+-INSTALL(TARGETS kommanderwidgets ${INSTALL_TARGETS_DEFAULT_ARGS})
+-
++install(TARGETS kommanderwidgets DESTINATION ${PLUGIN_INSTALL_DIR})
+ 
+ ########### install files ###############
+ 
+--- a/kommander/executor/CMakeLists.txt
++++ b/kommander/executor/CMakeLists.txt
+@@ -24,7 +24,6 @@
+ TARGET_LINK_LIBRARIES(
+   kommander
+   kommandercore
+-  kommanderwidgets
+   ${KDE4_KDEUI_LIBS}
+ )
+ 
+--- a/kommander/lib/kommanderfactory.cpp
++++ b/kommander/lib/kommanderfactory.cpp
+@@ -410,7 +410,7 @@
+     KConfig config ( "kommanderrc" );
+     KConfigGroup cfg ( &config, "plugins" );
+     QStringList plugins;
+-    plugins << "libkommanderwidgets";
++    plugins << "kommanderwidgets";
+     plugins += cfg.readEntry ( "plugins", QStringList() );
+     kDebug() << "Plugins: " << plugins;
+     QStringList::Iterator it;
