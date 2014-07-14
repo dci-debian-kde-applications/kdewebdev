@@ -3,6 +3,7 @@ kdewebdev (4:4.12.3-3) UNRELEASED; urgency=medium
   * New patch: kommanderwidgets-to-plugin.patch (Closes: #631671) Thanks
     to Jim Scadden
   * Update install files.
+  * Update watch file.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Jul 2014 14:48:30 +0200
 
