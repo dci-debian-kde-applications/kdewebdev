@@ -1,6 +1,6 @@
-kdewebdev (4:4.14.1-0r1) UNRELEASED; urgency=medium
+kdewebdev (4:4.14.1-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Add an explicit kdelibs5-dev build dependency before kdepimlibs5-dev;
     this should help pulling phonon-backend-dummy as build dependency instead
@@ -9,7 +9,7 @@ kdewebdev (4:4.14.1-0r1) UNRELEASED; urgency=medium
   * Point Homepage to http://www.kde.org, as kdewebdev.org has expired.
     (Closes: #758292)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Sep 2014 08:59:27 +0200
+ -- Pino Toscano <pino@debian.org>  Sat, 04 Oct 2014 18:45:52 +0200
 
 kdewebdev (4:4.14.0-1) unstable; urgency=medium
 
