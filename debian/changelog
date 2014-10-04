@@ -6,6 +6,8 @@ kdewebdev (4:4.14.1-0r1) UNRELEASED; urgency=medium
     this should help pulling phonon-backend-dummy as build dependency instead
     of a real backend, even if some library depends on phonon.
   * Remove obsolete installgen file.
+  * Point Homepage to http://www.kde.org, as kdewebdev.org has expired.
+    (Closes: #758292)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Sep 2014 08:59:27 +0200
 
