@@ -1,7 +1,7 @@
 Source: kdewebdev
 Section: web
 Priority: optional
-Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Sune Vuorela <sune@debian.org>,
            Modestas Vainius <modax@debian.org>,
            Eshat Cakar <info@eshat.de>,
@@ -13,14 +13,13 @@ Build-Depends: cmake,
                kdepimlibs5-dev (>= 4:4.11),
                libboost-dev,
                libtidy-dev,
-               libxslt-dev,
-               nepomuk-core-dev (>= 4:4.11),
+               libxslt-dev,               
                pkg-kde-tools (>= 0.12),
                zlib1g-dev
 Standards-Version: 3.9.5
 Homepage: http://www.kde.org/
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdewebdev.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdewebdev.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-applications/kdewebdev.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-applications/kdewebdev.git
 
 Package: kdewebdev
 Architecture: all
