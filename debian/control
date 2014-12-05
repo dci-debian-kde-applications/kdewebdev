@@ -59,7 +59,7 @@ Package: klinkstatus
 Architecture: any
 Section: web
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Suggests: khelpcenter4
+Suggests: khelpcenter
 Description: web link validity checker
  KLinkStatus is KDE's web link validity checker. It allows you to
  search internal and external links throughout your web site. Simply
