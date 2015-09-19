@@ -3,6 +3,7 @@ kdewebdev (4:15.08.0-1~) UNRELEASED; urgency=medium
   * New upstream release (15.04.2).
   * New upstream release (15.08.0).
   * Bump Standards-Version to 3.9.6.
+  * Add libsoprano-dev build dep.
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 09 Sep 2015 15:49:10 +0200
 
