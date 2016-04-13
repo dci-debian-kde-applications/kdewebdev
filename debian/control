@@ -20,8 +20,8 @@ Build-Depends: cmake,
                zlib1g-dev
 Standards-Version: 3.9.6
 Homepage: http://www.kde.org/
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-sc/kdewebdev.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-sc/kdewebdev.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdewebdev.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdewebdev.git
 
 Package: kdewebdev
 Architecture: all
