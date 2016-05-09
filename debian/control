@@ -18,7 +18,7 @@ Build-Depends: cmake,
                nepomuk-core-dev (>= 4:4.11),
                pkg-kde-tools (>= 0.12),
                zlib1g-dev
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdewebdev.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdewebdev.git
@@ -97,14 +97,3 @@ Description: visual dialog builder and executor tool
  mainwindow applications.
  .
  This package is part of KDE web development module.
-
-Package: kdewebdev-dbg
-Section: debug
-Architecture: any
-Depends: kde-runtime-dbg, ${misc:Depends}
-Suggests: kdewebdev (= ${source:Version})
-Priority: extra
-Description: debugging symbols for the KDE web development module
- This package contains the debugging symbols associated with kdewebdev.
- They will automatically be used by gdb for debugging kdewebdev-related
- issues.

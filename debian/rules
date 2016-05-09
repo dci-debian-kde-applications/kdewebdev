@@ -3,5 +3,5 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_strip:
-	$(overridden_command) --dbg-package=kdewebdev-dbg
+	$(overridden_command) --dbgsym-migration='kdewebdev-dbg (<= 4:15.08.3-1~)'
 
