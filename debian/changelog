@@ -1,13 +1,13 @@
-kdewebdev (4:16.04.3-0r1) UNRELEASED; urgency=medium
+kdewebdev (4:16.04.3-1) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * New upstream release.
   * Remove extra libsoprano-dev build dependency, which was added as workaround
     for a bug in kdelibs5-dev.
   * Remove extra nepomuk-core-dev build dependency.
   * Update lintian overrides.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Jun 2016 19:57:31 +0200
+ -- Pino Toscano <pino@debian.org>  Mon, 08 Aug 2016 07:15:23 +0200
 
 kdewebdev (4:15.08.3-2) unstable; urgency=medium
 
