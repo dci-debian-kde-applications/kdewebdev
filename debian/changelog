@@ -5,6 +5,7 @@ kdewebdev (4:16.04.3-0r1) UNRELEASED; urgency=medium
   * Remove extra libsoprano-dev build dependency, which was added as workaround
     for a bug in kdelibs5-dev.
   * Remove extra nepomuk-core-dev build dependency.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 07 Jun 2016 19:57:31 +0200
 
