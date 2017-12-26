@@ -1,5 +1,7 @@
 kdewebdev (4:16.04.3-2) UNRELEASED; urgency=medium
 
+  [ Pino Toscano ]
+  * Remove the kdewebdev metapackage, moved to src:meta-kde.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 26 Dec 2017 14:47:00 +0100
 

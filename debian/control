@@ -21,18 +21,6 @@ Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/kdewebdev.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/kdewebdev.git
 
-Package: kdewebdev
-Architecture: all
-Section: kde
-Depends: kfilereplace (>= ${source:Version}),
-         kimagemapeditor (>= ${source:Version}),
-         klinkstatus (>= ${source:Version}),
-         kommander (>= ${source:Version}),
-         ${misc:Depends}
-Description: web development apps from the official KDE release
- This metapackage includes a collection of web development applications
- provided with the official release of KDE.
-
 Package: kfilereplace
 Architecture: any
 Section: kde
