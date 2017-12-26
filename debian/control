@@ -32,17 +32,6 @@ Description: batch search-and-replace component
  .
  This package is part of KDE web development module.
 
-Package: kimagemapeditor
-Architecture: any
-Section: editors
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: HTML image map editor
- KImageMapEditor is a tool that allows you to edit image maps in HTML
- files. As well as providing a standalone application, KImageMapEditor
- makes itself available as a KPart for embedding into larger applications.
- .
- This package is part of KDE web development module.
-
 Package: klinkstatus
 Architecture: any
 Section: web
